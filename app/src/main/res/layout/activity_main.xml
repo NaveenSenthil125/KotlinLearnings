@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="KOTLIN LEARNINGS"
+        android:textColor="@color/TextColor"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAgeCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE CALCULATOR"
+        android:layout_marginTop="25sp"
+        android:backgroundTint="@color/paddColor"
+        />
+
+    <Button
+        android:id="@+id/btnTimeDiff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIFFERENCE IN TIME"
+        android:layout_marginTop="25sp"
+        android:backgroundTint="@color/paddColor"
+        />
+
+</LinearLayout>
