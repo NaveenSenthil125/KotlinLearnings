@@ -37,4 +37,13 @@
         android:backgroundTint="@color/paddColor"
         />
 
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATOR"
+        android:layout_marginTop="25sp"
+        android:backgroundTint="@color/paddColor"
+        />
+
 </LinearLayout>
