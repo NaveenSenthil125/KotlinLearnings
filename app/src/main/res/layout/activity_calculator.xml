@@ -24,7 +24,8 @@
         android:orientation="horizontal"
         android:layout_weight="1"
         android:padding="5sp"
-        android:background="@color/white">
+        android:background="@color/white"
+        android:gravity="">
 
         <Button
             android:id="@+id/btn7"

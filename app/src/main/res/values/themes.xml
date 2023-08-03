@@ -2,7 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.KotlinLearnings" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <item name="colorPrimary">@color/ButtonColor</item>
+        <item name="colorPrimary">#0F9D58</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="Theme.KotlinLearnings" parent="Base.Theme.KotlinLearnings" />

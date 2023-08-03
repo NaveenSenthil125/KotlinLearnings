@@ -1,7 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.KotlinLearnings" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.KotlinLearnings" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+<!--        <item name="colorPrimary">#0F9D58</item>-->
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+         <item name="colorPrimary">@color/design_default_color_primary_dark</item>
     </style>
+    <style name="Theme.KotlinLearnings" parent="Base.Theme.KotlinLearnings" />
 </resources>
